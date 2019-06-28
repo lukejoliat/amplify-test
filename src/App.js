@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import awsconfig from './aws-exports';
-import Amplify, { Analytics, Storage, API, graphqlOperation } from 'aws-amplify';
+import Amplify, { Storage, API, graphqlOperation } from 'aws-amplify';
 import { withAuthenticator, S3Album } from 'aws-amplify-react';
 
 Amplify.configure(awsconfig);
